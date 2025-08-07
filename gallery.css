@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(128, 128, 128, 0.555);
+}
+.para {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+ h2 {
+    font-size: 2.5vw;
+}
+ span {
+    font-size: 2.5vw;
+    color:  #7B2C2C;
+}
+.link {
+    width: 100px;
+    height: 40px;
+    background-color: #7B2C2C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2vw;
+}
+.link a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.box {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding: 5vw;
+}
+.pic1 {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+/*.pi1 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}*/
+.pic2 {
+    width: 100%;
+    height: 100%;
+      margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+/*.pi2 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}*/
+.pic3 {
+    width: 100%;
+    height: 100%;
+      margin-top: 20px;
+    margin-bottom: 15px;
+}
+/*.pic3 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}*/
+.pic4 {
+    width: 100%;
+    height: 100%;
+      margin-top: 20px;
+    margin-bottom: 15px;
+}
+/*.pi4 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}*/
+.pic5 {
+    width: 100%;
+    height: 100%;
+      margin-top: 20px;
+    margin-bottom: 15px;
+}
+/*.pi5 img{
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+}*/
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+
+
+@media (max-width:700px){
+    .para h2{
+        font-size: 3.5vw;
+    }
+    .para span {
+        font-size: 3.5vw;
+    }
+}
